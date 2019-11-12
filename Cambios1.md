@@ -6,7 +6,7 @@ En el archivo [cambios1.cu](https://github.com/wilmerodriguez/optixTutorial/blob
 
 #### Ray generation program  
 
-En términos de la generación de los rayos, se usa la función de generación de rayos *pinhole_camera()*, la cual se deja igual que el código original, aunque se podría cambiar la orientación de la escena al cambiar el orden de los argumentos de la función normalize al dejarla como `normalize(d.y*U + d.x*V + W)`, lo cual generaría el efecto de girar la escena 90° grados.
+En términos de la generación de los rayos, se usa la función de generación de rayos *pinhole_camera()*, la cual se deja igual que el código original, aunque se podría cambiar la orientación de la escena al cambiar el orden de los argumentos de la función *normalize* al dejarla como `normalize(d.y*U + d.x*V + W)`, lo cual generaría el efecto de girar la escena 90° grados.
 
 
 #### Closest hit program
@@ -19,7 +19,7 @@ En términos del programa tipo *Miss*, se modifica el color de fondo en la líne
 
 #### Any hit program
 
-En términos del programa *any hit*, se modifica el color de atenuación de la sombra en la línea de código #93. Este color se genera cuando los rayos se intersectan con los objetos de la escena y no interesa tener en cuenta las superficies más cercanas al rayo, como sí sucede con el programa tipo *closest hit*. Este valor de atenuación hará que la sombra generada se vea más clara u oscura según sea el caso. Adicionalmente, se puede quitar la sombra si se cambia el valor de profundidad *max_depth* a 0, que originalmente es de 100, en la línea de código #197. 
+En términos del programa *any hit*, se modifica el color de atenuación de la sombra en la línea de código #93. Este color se genera cuando los rayos se intersectan con los objetos de la escena y no interesa tener en cuenta las geometrías más cercanas al origen del rayo, como sí sucede con el programa tipo *closest hit*. Este valor de atenuación hará que la sombra generada se vea más clara u oscura según sea el caso. Adicionalmente, se puede quitar la sombra si se cambia el valor de profundidad *max_depth* a 0, que originalmente es de 100, en la línea de código #197. 
 
 En las siguientes imágenes se pueden observar los cambios realizados.
 
