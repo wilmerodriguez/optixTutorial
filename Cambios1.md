@@ -17,4 +17,8 @@ En términos de los programas tipo closest hits, se generan unas sombras y color
 
 En términos del programa tipo Miss, se modifica el color de fondo en la línea de código #83. Este color se genera cuando los rayos no han intersectado ninguna geometría en la escena.
 
-![imagen](https://raw.githubusercontent.com/wilmerodriguez/optixTutorial/original.PNG)
+#### Imagen original
+![imagen original](https://github.com/wilmerodriguez/optixTutorial/blob/master/original.PNG)
+
+#### Imagen modificada
+![imagen modificada](https://github.com/wilmerodriguez/optixTutorial/blob/master/modificada.PNG)
