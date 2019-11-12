@@ -1,8 +1,8 @@
 # optixTutorial
 
-### Cambios hasta el tutorial 4
+### Primeros cambios
 
-En el archivo tutorial4.cu se muestra el código con los cambios que realicé hasta el tutorial 4. Estos se describen a continuación.
+En el archivo cambios1.cu se muestra el código con los cambios que realicé hasta el tutorial 4. Estos se describen a continuación.
 
 #### Ray generation program  
 
