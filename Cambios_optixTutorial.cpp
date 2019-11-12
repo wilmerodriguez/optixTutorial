@@ -270,7 +270,7 @@ void createGeometry()
     box["boxmin"]->setFloat( -2.0f, 0.0f, -2.0f );
     box["boxmax"]->setFloat(  2.0f, 10.0f,  2.0f );
 
-	// Create box
+	// Create box2
 	Geometry box2 = context->createGeometry();
 	box2->setPrimitiveCount(1u);
 	box2->setBoundingBoxProgram(box_bounds);
