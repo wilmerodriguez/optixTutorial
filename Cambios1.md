@@ -48,7 +48,7 @@ box2["boxmax"]->setFloat( 4.0f, 5.0f, -4.0f);
 
 Adicionalmente se deben cambiar los valores en las líneas de código #432, #439 y #442 para relacionar esta nueva geometría a la escena. También, se cambia la altura de la caja original en la línea de código #271 como sigue: `box["boxmax"]->setFloat(  2.0f, 10.0f,  2.0f )`.
 
-Finalmente, se cambia el color de la textura de la geometría del paralelogramo, que sería el piso de la escena. Se usa el color verde para las ranuras de las baldosas en la línea de código #396 así: `floor_matl["crack_color"]->setFloat(0.1f, 1.0f, 0.1f)`.
+Finalmente, se cambia el color para las ranuras en la textura de la geometría del paralelogramo, que sería el piso de la escena. Se usa el color verde para las ranuras de las baldosas en la línea de código #396 así: `floor_matl["crack_color"]->setFloat(0.1f, 1.0f, 0.1f)`.
 
 #### Imagen original
 
