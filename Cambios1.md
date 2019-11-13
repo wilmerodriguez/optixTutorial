@@ -31,7 +31,7 @@ En las siguientes imágenes se pueden observar los cambios realizados.
 
 ## Segundos cambios
 
-En el archivo [Cambios_optixTutorial.cpp](https://github.com/wilmerodriguez/optixTutorial/blob/master/Cambios_optixTutorial.cpp) se muestra el código con los cambios realizados hasta el tutorial 10. Estos se describen a continuación.
+En el archivo [Cambios_optixTutorial.cpp](https://github.com/wilmerodriguez/optixTutorial/blob/master/Cambios_optixTutorial.cpp) se muestra el código con los cambios realizados hasta el tutorial 8. Estos se describen a continuación.
 
 
 #### Bounding Box
